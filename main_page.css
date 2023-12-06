@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.navigationlist {
+display: flex;
+flex-direction: column;
+padding: 5em;
+}
+
+button {
+    background-color: rgb(244, 18, 210);
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    padding: .5em;
+    margin: 1px;
+}
+
+button:hover {
+    background-color: rgb(246, 243, 68);
+    color: black;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: #12ece5;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
+
+img {
+    display: flex;
+    height: 150px;
+}
