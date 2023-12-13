@@ -1,0 +1,148 @@
+
+body {
+    display: block;
+    background-image: url(SP-Logo.png);
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+h1 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4em;
+    color: darkmagenta;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    color: darkmagenta;
+}
+
+h4 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.4em;
+    color: darkolivegreen;
+}
+
+/* li {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: darkmagenta;
+        color: rgb(237, 242, 244);
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+        padding-top: .5em;
+        padding-bottom: .5em;
+        margin: 1em 1em;
+        border-radius: 2em;
+        width:fit-content;
+        cursor: pointer;
+    }
+
+a:-webkit-any-link {
+    color: rgb(232, 232, 238);
+    cursor: pointer;
+    text-transform:capitalize;
+} */
+
+.bikebrands {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.genesislogo {
+    display: flex;
+    background-image: url(Genesis\ Logo.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    color: transparent;
+    padding: 5em;
+    margin: 1em 1em;
+    border-radius: 2em;
+    width:fit-content;
+    cursor: pointer;
+}
+
+.fairdalelogo {
+    display: flex;
+    background-image: url(fairdale_logo.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    color: transparent;
+    padding: 6em;
+    margin: 1em 1em;
+    border-radius: 2em;
+    width:fit-content;
+    cursor: pointer;
+}
+
+.ridgebacklogo {
+    display: flex;
+    background-image: url(ridgeback_logo.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    color: transparent;
+    padding: 5em;
+    margin: 1em 1em;
+    border-radius: 2em;
+    width:fit-content;
+    cursor: pointer;
+}
+
+.listofbikes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.listofbikes li {
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(11, 20, 95);
+    color: aliceblue;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin: 1em 1em;
+    border-radius: 2em;
+    width:fit-content;
+    cursor: pointer;
+    transition: all;
+}
+
+.listofbikes ::before {
+    content: "";
+    transition: ease-in-out;
+    background: lightblue;
+}
+
+.listofbikes :active ::before {
+    width: 100%;
+    content: "click to see bike";
+    text-align: center;
+}
+
+/* .listofbikes li:hover {
+    background-color: blue;
+} */
+
+img {
+    display:none;
+    width: 15em;
+    height: 10em;
+}

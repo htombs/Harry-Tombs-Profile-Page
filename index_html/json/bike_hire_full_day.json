@@ -1,0 +1,9 @@
+{
+    "bikeHirePriceListFullDay":[
+        {
+            "name": "Bike",
+            "duration": "Full Day",
+            "price": "£24.00"
+        }
+    ]
+}

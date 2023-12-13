@@ -1,0 +1,14 @@
+{
+    "bikehirepricelist": [
+        {
+            "name": "Bike",
+            "duration": "3hrs",
+            "price": "£16.00"
+        },
+        {
+            "name": "Bike",
+            "duration": "Full Day",
+            "price": "£24.00"
+        }
+    ]
+}

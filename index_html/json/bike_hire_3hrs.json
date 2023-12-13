@@ -1,0 +1,9 @@
+{
+    "bikehirepricelist3hrs": [
+        {
+            "name": "Bike",
+            "duration": "3hrs",
+            "price": "£16.00"
+        }
+    ]
+}

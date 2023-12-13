@@ -1,0 +1,9 @@
+{
+    "workshopprices": [
+        {
+            "time": "1hr",
+            "price": "£45",
+            "booking": "yes"
+        }
+    ]
+}
