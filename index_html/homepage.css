@@ -13,6 +13,7 @@ body {
 img {
     /* display: flex; */
     height: 12em;
+    width: 15em;
 }
 
 .video1 {
