@@ -1,0 +1,18 @@
+{
+    "canoepricelist": {
+            "1hr": "1 hour - £25",
+            "2hr": "2 hours - £35",
+            "3hr": "3 hours- £45",
+            "4hr": "4 hours - £55",
+            "5hr": "5 hours - £65",
+            "Full Day": "Full Day £75"
+        },
+        "paddleboardpricelist": {
+            "1hr": "1 hour - £20",
+            "2hr": "2 hours - £25",
+            "3hr": "3 hours - £30",
+            "4hr": "4 hours - £35",
+            "5hr": "5 hours - £40",
+            "Full Day": "Full Day - £45"
+        }
+}

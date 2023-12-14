@@ -1,0 +1,78 @@
+body {
+    background-image: url(SP_Logo.png);
+    background-color: rgb(245, 230, 250);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: darkmagenta;
+}
+
+label {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bolder;
+    text-align: left;
+    color: darkmagenta;
+}
+
+.option {
+    background-color: aqua;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkmagenta;
+    cursor: pointer;
+}
+
+.select:hover {
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+section.hireprices li {
+    flex-direction: row;
+    list-style-type: none;
+    width: max-content;
+}
+
+button {
+    cursor: pointer;
+    font-size: 1em;
+}
+
+section.hireprices button {
+    background-color: rgb(114, 203, 233);
+    margin: 0.5em;
+    padding: 9px;
+}
+
+section.hireprices button:hover{
+    background-color: rgb(84, 193, 229);
+    margin: 0.5em;
+    padding: 9px;
+}
+
+h3 {
+    position: absolute;
+    bottom: 5%;
+    left: 1%;
+}
+
+h4 {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+
+.homebutton {
+    position: relative;
+    bottom: 1%;
+    left: 1%;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>S&P Hire Centre</title>
+    <link rel="stylesheet" href="SadPadHireCentre.css" media="screen" type="text/css"/>
+</head>
+<body>
+    <h1>Hire Centre</h1>
+
+    <div>
+        <section class= "hireprices">
+            <li> <button onclick="getAdultBikeHirePrices3hrs()" id= "adultbike3hrs">Adult Bike 3hrs</button> </li>
+            <!-- <li> <button onclick="getAdultBikeHirePricesFullDay()" id="adultbikefullday">Adult Bike Full Day</button> </li> -->
+            <li> <button onclick="getCanoe1hr()" id="canoe1hr">Canoe 1hr</button> </li>
+        </section> 
+    </div>
+    <!-- this is how to create a dropdown box. The `for` and `id` should be the same -->
+    <label for="activity ">What activity are you interested in?</label>
+        <select name="activity_choice" id="activity">
+            <option value="pick_one" selected>pick an activty you're intereted in</option> 
+            <!-- the `selected` can be used to show which one shows automatically on the dropdown menu -->
+            <option value="cycling">Cycling</option>
+            <option value="paddleboarding">Paddleboarding</option>
+            <option value="single_kayak">Single Kayak</option>
+            <option value="double_kayak">Double Kayak</option>
+            <option value="canoe">Canoe</option>
+        </select>
+
+        <ul id="price"></ul>
+
+        <div onclick="getAdultBikeHirePricesFullDay()" id="adultbikefullday">
+        <div onclick="getSupHirePrices()" id="suphireprices">
+        </div>
+    <br>
+    <br>
+    <br>
+        <div class="homebutton">
+        <button onclick="homepage1()">Home Page</button>
+        <!-- <h3><a href="SadPad.html">Home Page</h3> -->
+        </div>
+    <!-- 2x ways to create buttons -->
+    <!-- onclick="getAdultBikeHirePricesFullDay()" id="adultbikefullday" -->
+
+<script type= "text/javascript" src= "SadPadHireCentre.js"></script>
+</body>
+</html>

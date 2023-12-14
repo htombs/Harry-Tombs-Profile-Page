@@ -1,0 +1,107 @@
+body {
+    background-image: url(SP_Logo.png);
+    background-color: (245, 230, 250);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-attachment: fixed;
+}
+
+/* .navigation {
+    display: flex;
+    flex-wrap: row wrap;
+    align-items: stretch;
+    justify-content: space-between;
+} */
+
+/* .navigation li a {
+    background: purple;
+    padding: 5px;
+    width: 200px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 2.3em;
+    text-align: center;
+}
+
+.navigation a:hover{
+    background-color: darkblue;
+    color: white;
+} */
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: darkmagenta;
+}
+
+.navbuttons {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: center;
+}
+
+.a {
+    background: (245, 230, 250);
+    opacity: 25%;
+    padding: 5px;
+    width: 10em;
+    height: 12em;
+    margin-top: 10px;
+    line-height: 150px;
+    color: rgb(22, 19, 19);
+    font-weight: bold;
+    font-display: block;
+    font-size: 2.3em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.a:hover {
+    background-color: rgb(130, 73, 244);
+    color: black;
+    opacity: 100%;
+}
+
+button {
+    background: (245, 230, 250);
+    opacity: 25%;
+    padding: 5px;
+    width: 15em;
+    height: 12em;
+    margin-top: 10px;
+    line-height: 150px;
+    color: rgb(22, 19, 19);
+    font-weight: bold;
+    font-display: block;
+    font-size: 2.3em;
+    text-align: center;
+    cursor: pointer;
+  }
+
+button:hover {
+    /* background-image: url(SP_Logo.png);
+    background-repeat: no-repeat;
+    background-position: 50%; 
+these above 3 lines were just messing around to see what could be done  */
+    background-color: rgb(130, 73, 244);
+    color: black;
+    opacity: 100%;
+}
+
+/* .hireprices {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-between;
+    color:rgb(6, 7, 7);
+} */
+
+h5 {
+    text-align: center;
+}

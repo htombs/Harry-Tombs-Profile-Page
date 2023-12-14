@@ -1,0 +1,86 @@
+// this is the "function" used to bring up info from a json file when a button is pressed
+
+function getHirePrices() {
+    var list = document.getElementById ("hirepricelist");
+
+    fetch("SadPad.json").then(res => res.json())
+    .then(data => {
+        bikes = data["bikehirepricelist"];
+        console.log(bikes);
+        bikes.forEach((bike) => {
+            var listItem = document.createElement("li")
+            listItem.innerText = `EQUIPMENT: ${bike.name}, DURATION: ${bike.duration}, PRICE: ${bike.price}`;
+            list.appendChild(listItem)
+        })
+        canoes = data["canoehirepricelist"];
+        console.log(canoes);
+        canoes.forEach((canoe) => {
+            var listItem = document.createElement("li")
+            listItem.innerText = canoe.name;
+            list.appendChild(listItem)
+        })
+    })
+}
+
+function getBikeBrands() {
+    var list = document.getElementById ("bikebrands");
+
+    fetch("bike_brands.json").then(res =>res.json())
+    .then(data => {
+        shopbrands = data["bikebrands"];
+        console.log(shopbrands);
+        shopbrands.forEach((bikebrand) => {
+            var listItem = document.createElement("li")
+            listItem.innerText = bikebrand.name;
+            list.appendChild(listItem);
+        })
+    })
+}
+
+function getWorkshopPrices() {
+    var list = document.getElementById ("workshopprices");
+
+    fetch("Workshop-prices.json").then(res =>res.json())
+    .then(data => {
+        workshops = data["workshopprices"];
+        console.log(workshops);
+        workshops.forEach((workshop) => {
+            var listItem = document.createElement("li")
+            listItem.innerText = `Labour Time: ${workshop.time}, Price: ${workshop.price}, Booking Required?: ${workshop.booking}`;
+            list.appendChild(listItem);
+        })
+    })
+}
+
+// this is the function used to take you to another page, but it replaces the html page you are on so
+// the "back" button doesn't work, a better option is to use the <a </a> on the html page
+function getBikesList() {
+    location.replace ("SadPad2.html")
+} 
+
+
+// How to put buttons on HTML page
+<div class="control-panel">
+ <button onclick="getHirePrices()">Hire Centre</button>
+ <br>
+ <button onclick="getWorkshopPrices()">Workshop</button>
+ <br>
+ <button onclick="getBikeBrands()">Bike Shop</button>
+
+//  this is an unordered list "ul" used for bullet point lists
+<ul class="list of things" ul>
+    <li id="HireCentre">Hire Centre</li>
+    <li id="WorkShop">WorkShop</li>
+    <li id="BikeShop">Bike Shop</li>
+</ul>
+
+document.getElementById("activity").onchange = function(){
+    var pricelist = document.getElementById("price");
+    pricelist.innerHTML = '<a href="/Home">link somewhere</a>'
+}
+
+
+document.getElementById("activity").onchange = function(){
+    var pricelist = document.getElementById("price");
+    pricelist.innerText = "test"
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>S&P Bike Sales</title>
+    <link rel="stylesheet" href="SadPadBikeshop.css" media="screen" type="text/css"/>
+</head>
+<body>
+
+    <h1>Bike Shop</h1>
+    <h2>List of Bike Brands We Stock</h2>
+
+    <ul class="bikebrands" ul>
+        <li><a href="https://www.genesisbikes.co.uk/" class="genesislogo">Genesis</a></li>
+        <li><a href="https://fairdalebikes.com/" class="fairdalelogo">Fairdale</a></li>
+        <li><a href="https://www.ridgeback.co.uk/bikes" class="ridgebacklogo">Ridgeback</a></li>
+    </ul>
+
+    <h2>List of Bikes in Stock</h2>
+    <h4>Click on the name to have a goosey gander at the bike</h4>
+
+    <img onclick="showNomadButton()" id="nomadImg" src="fairdale_nomad.webp" alt="fairdale_nomad">
+    <img onclick="showArcherButton()" id="archerImg" src="fairdale_archer.webp" alt="fairdale_archer">
+
+    <ul class="listofbikes" ul>
+        <li onclick="showNomad()" id="listitem1">Fairdale Nomad</li>
+        <li onclick="showArcher()" id="listitem2">Fairdale Archer</li>
+        <li id="listitem3">Genesis Croix de Fer 10</li>
+        <li id="listitem4">Genesis Croix de Fer 20</li>
+        <li id="listitem5">Genesis Croix de Fer 30</li>
+        <li id="listitem8">Genesis Fugio</li>
+</ul>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+    <button onclick="homepage()">Back to Homepage</button>
+    <a href="SadPad.html">Press Here to Return to Homepage</a>
+
+    <script type= "text/javascript" src= "SadPadBikeshop.js"></script>
+</body>
+</html>
